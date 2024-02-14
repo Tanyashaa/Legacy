@@ -1,0 +1,19 @@
+#include <iostream>
+
+// Function to calculate factorial recursively
+int factorial(int n) {
+    if (n == 0 || n == 1)
+        return 1;
+    else
+        return n * factorial(n - 1);
+}
+
+int main() {
+    int num = 5; // Change the number to calculate factorial
+    int result = factorial(num);
+    
+    std::cout << "Factorial of " << num << " is: " << result << std::endl;
+    
+    return 0;
+}
+This C++ code includes t
