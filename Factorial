@@ -2,7 +2,7 @@
 
 // Function to calculate factorial recursively
 //really easy function
-int factorial(int n) {
+int factorial(int n) { //ititiate function
     if (n == 0 || n == 1)
         return 1;
     else
