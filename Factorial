@@ -1,6 +1,7 @@
 #include <iostream>
 
 // Function to calculate factorial recursively
+
 //really easy function
 int factorial(int n) { //ititiate function
     if (n == 0 || n == 1)
